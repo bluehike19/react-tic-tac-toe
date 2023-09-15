@@ -1,0 +1,25 @@
+body {
+  box-sizing: border-box;
+  margin-top: 150px;
+}
+
+.board-row {
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  /* display: grid;
+  place-items: center; */
+  display: flex;
+  justify-content: center;
+
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background: none;
+  border: 0.1px solid black;
+  font-weight: 900;
+  font-size: x-large;
+}
